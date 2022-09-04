@@ -1,26 +1,24 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div id="page" class="hfeed site">
+        <header-layout></header-layout>
+        <router-view />
+        <brands-carousel></brands-carousel>
+        <footer-layout></footer-layout>
+
+    </div><!-- #page -->
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+    import HeaderLayout from '@/components/layout/HeaderLayout'
+    import FooterLayout from '@/components/layout/FooterLayout'
+    import BrandsCarousel from '@/components/BrandsCarousel'
 
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+    export default {
+        name: 'App',
+        components: {
+            HeaderLayout,
+            FooterLayout,
+            BrandsCarousel
+        }
+    }
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
