@@ -35,12 +35,14 @@
 							<div class="woocommerce columns-4">
 								<ul class="product-loop-categories">
 									<li class="product-category product" v-for="subcat in category.subcategories" :key="subcat.id">
-										<a href="#">
+										<!-- <a href="#"> -->
+										<router-link class="nav-link" :to="{name: subcat.to}">
 											<img :src="subcat.image" alt="Accessories" width="250" height="232" />
 												<h3>{{subcat.name}} 
 													<mark class="count">(2)</mark>
 												</h3>
-										</a>
+										</router-link>
+										<!-- </a> -->
 									</li>
 								</ul>
 							</div>
