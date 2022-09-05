@@ -40,7 +40,8 @@
 		methods: {
 			getUsers() {
 				// axios.get('https://jsonplaceholder.typicode.com/users').then(response => {
-				axios.get('http://127.0.0.1:8000/api/users').then(response => {
+				// axios.get('http://127.0.0.1:8000/api/users').then(response => {
+				axios.get('./users.js').then(response => {
 					this.users = response.data;
                     // $('#sampleTable').DataTable().destroy();
                     // this.showTable();
