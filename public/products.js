@@ -11,7 +11,7 @@
 		"id": 1,
 		"name": "Canguros"
 	},
-	"image": "http://192.168.100.9:8080/images/products/1.jpg"
+	"image": "http://localhost:8080/images/products/1.jpg"
 },
 {
 	"id": 2,
@@ -25,7 +25,7 @@
 		"id": 1,
 		"name": "Canguros"
 	},
-	"image": "http://192.168.100.9:8080/images/products/2.jpg"
+	"image": "http://localhost:8080/images/products/2.jpg"
 },
 {
 	"id": 3,
@@ -39,7 +39,7 @@
 		"id": 1,
 		"name": "Canguros"
 	},
-	"image": "http://192.168.100.9:8080/images/products/3.jpg"
+	"image": "http://localhost:8080/images/products/3.jpg"
 },
 {
 	"id": 4,
@@ -53,7 +53,7 @@
 		"id": 1,
 		"name": "Canguros"
 	},
-	"image": "http://192.168.100.9:8080/images/products/4.jpg"
+	"image": "http://localhost:8080/images/products/4.jpg"
 },
 {
 	"id": 5,
@@ -67,7 +67,7 @@
 		"id": 1,
 		"name": "Canguros"
 	},
-	"image": "http://192.168.100.9:8080/images/products/5.jpg"
+	"image": "http://localhost:8080/images/products/5.jpg"
 },
 {
 	"id": 6,
@@ -81,6 +81,6 @@
 		"id": 1,
 		"name": "Canguros"
 	},
-	"image": "http://192.168.100.9:8080/images/products/2.jpg"
+	"image": "http://localhost:8080/images/products/2.jpg"
 }
 ]

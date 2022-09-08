@@ -5,23 +5,23 @@
   {
     "id": 1, 
     "name": "Canguros",
-    "image": "http://192.168.100.9:8080/assets/images/product-category/img5.jpg",
+    "image": "https://api.lorem.space/image/movie?w=150&amp;amp;amp;amp;h=220",
     "to": "shop"
   }, 
   {
     "id": 2, 
     "name": "Poleras",
-    "image": "http://192.168.100.9:8080/assets/images/product-category/img6.jpg"
+    "image": "https://cdn.lorem.space/images/movie/.cache/150x220/godfather-1972.jpg"
   }, 
   {
     "id": 3, 
     "name": "Sombreros",
-    "image": "http://192.168.100.9:8080/assets/images/product-category/img8.jpg"
+    "image": "https://cdn.lorem.space/images/movie/.cache/150x220/full-metal-jacket-1987.jpg"
   }, 
   {
     "id": 4, 
     "name": "Gorras",
-    "image": "http://192.168.100.9:8080/assets/images/product-category/img7.jpg"
+    "image": "https://cdn.lorem.space/images/movie/.cache/150x220/jaws-1975.jpg "
   }
   ]
 }
